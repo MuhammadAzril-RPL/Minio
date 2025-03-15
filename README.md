@@ -65,23 +65,21 @@ Setelah semuanya dikonfigurasi, jalankan perintah berikut:
 go run main.go
 ```
 
-## Output Contoh
-```sh
 === Upload File ===
-Berhasil upload public/test.txt dengan ukuran 30 bytes
+Berhasil upload public/test.txt dengan ukuran 35 bytes
 
 === Download File ===
 Berhasil download file ke downloaded_test.txt
 
 === Daftar File dalam Bucket ===
-- public/test.txt (Size: 30 bytes)
+- public/test.txt (Size: 35 bytes)
 
 === Generate URL ===
-Presigned URL (berlaku 24 jam): http://203.194.113.6:9000/smk-telkom/public/test.txt?X-Amz-Signature=...
+Presigned URL (berlaku 24 jam): http://203.194.113.6:9000/smk-telkom/public/test.txt?X-Amz-...
 Public URL: http://203.194.113.6:9000/smk-telkom/public/test.txt
 
-Program selesai
-```
+Apakah Anda ingin menghapus file yang diunduh? (y/n): 
+
 
 
 
